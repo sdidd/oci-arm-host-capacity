@@ -9,7 +9,7 @@ on:
       - main
 
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   tests:
