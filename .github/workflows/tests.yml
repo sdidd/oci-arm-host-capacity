@@ -59,5 +59,3 @@ jobs:
           OCI_MAX_INSTANCES: ${{ secrets.OCI_MAX_INSTANCES }}
           OCI_SSH_PUBLIC_KEY: ${{ secrets.OCI_SSH_PUBLIC_KEY }}
           AD_ALWAYS_FREE: ${{ secrets.AD_ALWAYS_FREE }}
-          TEST_IMAGE_ID: ${{ secrets.TEST_IMAGE_ID }}
-          TEST_SUBNET_ID: ${{ secrets.TEST_SUBNET_ID }}
